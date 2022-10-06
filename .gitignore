@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Temporary folder VS sometimes creates for stale files in debugger
+enc_temp_folder/

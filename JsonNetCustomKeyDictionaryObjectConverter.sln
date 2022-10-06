@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonNetCustomKeyDictionaryObjectConverter", "JsonNetCustomKeyDictionaryObjectConverter\JsonNetCustomKeyDictionaryObjectConverter.csproj", "{C5F2EB61-399D-44C8-9BF7-3E97B170565A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D9737FEA-9E76-4A4E-B9BC-0C82303A776B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F2EB61-399D-44C8-9BF7-3E97B170565A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F2EB61-399D-44C8-9BF7-3E97B170565A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F2EB61-399D-44C8-9BF7-3E97B170565A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F2EB61-399D-44C8-9BF7-3E97B170565A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9737FEA-9E76-4A4E-B9BC-0C82303A776B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9737FEA-9E76-4A4E-B9BC-0C82303A776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9737FEA-9E76-4A4E-B9BC-0C82303A776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9737FEA-9E76-4A4E-B9BC-0C82303A776B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD634AD6-88B6-43EF-8A92-42941A97E120}
+	EndGlobalSection
+EndGlobal
