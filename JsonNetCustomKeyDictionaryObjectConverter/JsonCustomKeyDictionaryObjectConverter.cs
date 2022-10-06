@@ -134,13 +134,14 @@ namespace JsonNetCustomKeyDictionaryObjectConverter
                     string keyStr = null;
                     if (isStringKey)
                     {
+                        // Key is not a custom type and can be used directly
                         keyStr = (string)key;
                     }
                     else
                     {
                         sb.Clear();
                         serializer.Serialize(tempWriter, key);
-                        keyStr = RemoveStripCapsulation(sb.ToString());
+                        keyStr = RemoveCapsulation(sb.ToString());
                         // TO-DO: Validate key resolves to single string, no complex structure
                     }
                     writer.WritePropertyName(keyStr);
@@ -157,7 +158,7 @@ namespace JsonNetCustomKeyDictionaryObjectConverter
         /// </summary>
         /// <param name="str">String to remove encapsulation from.</param>
         /// <returns>String without encapsulation.</returns>
-        private string RemoveStripCapsulation(string str)
+        private string RemoveCapsulation(string str)
         {
             if (str[0] == '\"' && str[str.Length-1] == '\"') return str.Substring(1, str.Length - 1);
             return str;
